@@ -94,3 +94,931 @@ paper: Material for writing or printing.
 desk: A piece of furniture for writing or working.
 chair: A piece of furniture to sit on.
 bag: A container used to carry items.
+abandon: to leave behind or give up completely
+ability: the power or skill to do something
+able: having the power, skill, or means to do something
+about: concerning; relating to
+above: at a higher place or position
+accept: to agree to take something offered
+access: a way of entering or using something
+accident: an unexpected event causing damage or injury
+account: a record of financial transactions
+accurate: correct and without errors
+achieve: to successfully reach a goal
+acquire: to get or obtain something
+across: from one side to the other
+action: the process of doing something
+active: being in motion; taking part
+activity: something that is done for a purpose
+actor: a person who performs in plays or films
+actress: a female actor
+actual: real, not imaginary
+adapt: to change to fit new conditions
+address: the place where someone lives
+adjust: to change slightly to fit better
+admire: to respect or think highly of
+adult: a fully grown person
+advance: move forward or make progress
+advice: guidance or recommendation
+affect: to influence something
+afraid: feeling fear
+after: following in time
+again: once more
+against: in opposition to
+age: how long someone has lived
+agency: an organization that provides a service
+agent: a person who acts for others
+agree: to have the same opinion
+ahead: in front or before
+aid: help or support
+aim: a purpose or goal
+air: the invisible gas around the Earth
+alarm: a warning sound
+album: a collection of songs or photos
+alert: watchful and ready
+alien: belonging to another world
+alive: living, not dead
+allow: to permit
+almost: nearly
+alone: without anyone else
+along: beside or together
+already: before now
+also: in addition
+always: at all times
+amazing: causing great surprise
+among: in the middle of
+amount: a quantity
+ancient: very old
+anger: strong feeling of displeasure
+animal: a living creature
+annual: happening once every year
+answer: a reply to a question
+anxious: worried or nervous
+any: one or more without limit
+appear: to become visible
+apple: a round fruit
+apply: to make a formal request
+appoint: to choose for a job
+approve: to accept as good
+area: a region or part of a place
+argue: to disagree with reasons
+arrive: to reach a place
+artist: a person who creates art
+assist: to help
+assume: to suppose something is true
+attack: to use force against
+attend: to be present at
+author: a person who writes
+available: ready for use
+average: the usual or normal
+avoid: to stay away from
+aware: knowing about something
+awesome: extremely good
+baby: a very young child
+back: the rear part
+balance: an even distribution
+ball: a round object used in games
+band: a group of musicians
+bank: a place that keeps money
+bar: a piece of solid material or a place serving drinks
+base: the bottom part
+basic: simple and important
+basket: a container for carrying
+battle: a fight between groups
+beautiful: pleasing to the senses
+because: for the reason that
+become: to begin to be
+before: earlier in time
+begin: to start
+believe: to accept as true
+bell: a hollow object that rings
+belong: to be part of
+below: at a lower place
+benefit: something good gained
+best: of the highest quality
+better: of higher standard
+between: in the space separating
+beyond: farther than
+big: large in size
+bird: an animal with feathers and wings
+birth: the beginning of life
+bit: a small piece
+black: the darkest color
+blood: red liquid in the body
+blue: the color of the sky
+board: a flat, thin piece of material
+body: the physical structure of a person
+book: a set of written pages
+border: the edge of something
+born: brought into life
+borrow: to take something for a time
+both: two together
+bottle: a container for liquids
+bottom: the lowest part
+box: a container with flat sides
+boy: a male child
+brain: the organ of thought
+branch: a part of a tree
+brave: not afraid of danger
+bread: food made from flour
+break: to separate into pieces
+bright: giving a lot of light
+bring: to carry to a place
+broad: wide
+brother: a male sibling
+build: to make by putting together
+burn: to be on fire
+business: work or trade
+busy: having much to do
+buy: to get by paying money
+call: to shout or phone
+calm: peaceful and quiet
+camera: a device to take photos
+camp: a place for temporary stay
+can: be able to
+cancel: to stop something planned
+capital: the main city of a country
+captain: a leader of a team or ship
+car: a road vehicle
+card: a small piece of stiff paper
+care: attention or concern
+career: a person’s job path
+careful: taking care
+carry: to move while holding
+case: a container or example
+cash: money in notes or coins
+cat: a small pet animal
+catch: to hold or seize
+cause: a reason for something
+center: the middle point
+century: 100 years
+certain: sure, without doubt
+chair: a seat for one person
+chance: a possibility
+change: to make different
+charge: to demand payment
+cheap: low in cost
+check: to examine
+child: a young person
+choose: to select
+circle: a round shape
+city: a large town
+class: a group of students
+clean: free from dirt
+clear: easy to see
+clerk: an office worker
+clever: quick to learn
+climb: to go up
+clock: a device for telling time
+close: near or to shut
+cloud: a mass of water vapor in the sky
+club: a group of people with a purpose
+coach: a person who trains others
+coast: land near the sea
+coffee: a drink made from beans
+cold: low in temperature
+collect: to gather together
+college: a place of higher education
+color: the quality of things we see (red, blue, etc.)
+come: to move closer
+comfort: a state of ease
+common: shared by many
+company: a business organization
+compare: to find similarities or differences
+complete: having all parts
+computer: an electronic machine for processing data
+concern: worry or interest
+condition: the state of something
+connect: to join together
+consider: to think carefully
+control: power to direct
+cook: to prepare food
+cool: slightly cold
+corner: a place where two sides meet
+correct: free from mistakes
+cost: the amount to be paid
+count: to say numbers in order
+country: a nation
+course: a series of lessons
+cover: to put over something
+create: to make something new
+credit: trust in payment or recognition
+crew: a group working together
+crime: an illegal act
+cross: to go from one side to the other
+crowd: a large group of people
+culture: customs and traditions of people
+cup: a small container for drinks
+current: happening now
+custom: a traditional practice
+customer: a person who buys goods
+cut: to divide with a sharp tool
+cycle: a repeated series
+daily: occurring every day
+damage: physical harm that reduces value or usefulness
+dance: to move rhythmically to music
+danger: the possibility of harm or injury
+dark: having little or no light
+data: facts or information
+date: a particular day of the month or year
+daughter: a female child
+day: a period of 24 hours
+dead: no longer alive
+deal: an agreement or arrangement
+dear: regarded with affection
+death: the end of life
+debate: a formal discussion on a topic
+decide: to make a choice or judgment
+deep: extending far down from the surface
+defend: to protect from harm or attack
+degree: a unit of measurement or level of education
+deliver: to bring or hand over
+demand: a strong request or need
+dial:someone calls you
+document: a written or printed paper that provides information
+doubt: a feeling of uncertainty or lack of conviction
+down: toward a lower place or position
+dream: a series of thoughts, images, or emotions during sleep; a strong aspiration
+dress: a one-piece garment for a woman or girl
+drink: a liquid that can be swallowed
+drive: to operate and control a vehicle
+drop: a small amount of liquid that falls in a spherical shape
+dry: free from moisture or liquid
+during: throughout the course of
+duty: a moral or legal obligation; work or task
+each: every one considered individually
+early: before the expected time
+earn: to receive money in return for work
+earth: the planet we live on; soil
+east: the direction where the sun rises
+easy: not difficult; simple
+eat: to consume food
+edge: the boundary or margin of a surface
+effect: a result or outcome of an action
+effort: physical or mental energy used to achieve something
+eight: the number 8
+either: one or the other of two
+electric: related to electricity
+else: in addition; otherwise
+employ: to hire someone for work
+end: the final part of something
+enemy: a person who is opposed or hostile
+energy: the capacity to do work or act
+enjoy: to take pleasure in something
+enough: sufficient; adequate
+enter: to come or go into
+entire: whole; complete
+equal: the same in quantity, size, or value
+escape: to get away from a place or situation
+especially: particularly; more than usual
+establish: to set up or start something
+even: flat, level, or equal; also used for emphasis
+evening: the period of time at the end of the day
+event: something that happens; an occurrence
+ever: at any time
+every: all of a group considered individually
+exact: precise; accurate
+example: a representative instance or illustration
+except: not including; other than
+exchange: the act of giving one thing and receiving another
+exercise: physical activity for health; practice
+exist: to be real or present
+expect: to look forward to; anticipate
+experience: knowledge or skill gained from doing something
+explain: to make something clear or understandable
+express: to convey a thought or feeling
+extend: to make longer or larger
+extra: additional; more than usual
+eye: the organ of sight
+face: the front part of the head; confront
+fact: something that is true or real
+fail: to be unsuccessful
+fair: just, unbiased; moderately good
+fall: to drop down or descend
+family: a group of related people
+famous: widely known
+far: at a great distance
+farm: land used to grow crops or raise animals
+fast: moving quickly; also, firm or secure
+father: a male parent
+fear: an unpleasant emotion caused by danger
+feature: a distinctive attribute or aspect
+feed: to give food to someone or something
+feel: to perceive by touch or emotion
+female: of the sex that produces eggs or bears young
+festival: a day or period of celebration
+few: a small number
+field: an area of open land
+fight: to struggle or battle
+figure: a number, shape, or person
+file: a collection of documents or data; also to organize papers
+fill: to make full
+film: a thin layer or a movie
+final: last; ultimate
+find: to discover or locate
+fine: of high quality; also a penalty
+finger: one of the five digits on a hand
+finish: to complete
+fire: combustion that produces heat and light
+first: coming before all others
+fish: a water-dwelling animal
+fit: suitable or in good health
+five: the number 5
+floor: the bottom surface of a room
+flower: the bloom of a plant
+fly: to move through the air; an insect
+focus: to concentrate attention
+follow: to come after or pursue
+food: any nutritious substance eaten
+foot: the lower extremity of the leg
+force: strength or energy applied to an object
+foreign: from another country
+forget: to fail to remember
+form: the shape or structure of something
+fortune: luck or wealth
+forward: toward a position ahead
+found: to establish; also past tense of find
+free: not restricted or costing nothing
+friend: a person whom one likes and trusts
+front: the forward part or position
+fruit: the edible product of a plant
+full: containing as much as possible
+future: the time yet to come
+game: an activity for fun or sport
+garden: a plot for growing plants
+gate: an entrance or opening
+gather: to collect or assemble
+general: common; not specific
+gentle: kind or mild
+gift: something given voluntarily
+girl: a female child
+give: to present or hand over
+glass: a transparent material; a drinking vessel
+goal: an aim or objective
+good: morally right; of high quality
+government: the system by which a community is governed
+grand: impressive in size or style
+great: very good or large
+green: the color of grass; environmentally friendly
+ground: the surface of the earth
+group: a collection of people or things
+grow: to increase in size
+growth: the process of increasing
+guard: to protect
+guess: an estimate without certainty
+guide: to lead or advise
+habit: a regular practice
+hair: strands growing from the scalp
+half: one of two equal parts
+hall: a large room or building
+hand: the extremity of the arm
+happen: to occur
+happy: feeling pleasure or joy
+hard: solid or difficult
+harm: physical or mental damage
+hat: a head covering
+hate: intense dislike
+have: to possess
+head: the upper part of the body
+health: the state of being well
+hear: to perceive sound
+heart: the organ that pumps blood; emotion
+heat: warmth or high temperature
+heavy: of great weight
+help: to assist
+here: in this place
+high: elevated
+hill: a small raised area of land
+history: a record of past events
+hold: to grasp or keep
+holiday: a day of celebration or rest
+home: place where one lives
+hope: desire for a positive outcome
+horse: a large domesticated animal
+hospital: a place for medical care
+hot: having high temperature
+hour: 60 minutes; a period of time
+house: a building for living
+human: relating to people
+humble: modest
+hundred: the number 100
+hungry: needing food
+hunt: to search or chase for
+hurry: to move quickly
+hurt: to cause pain
+husband: a married man
+idea: a thought or plan
+identify: to recognize or name
+imagine: to form a mental picture
+important: of great significance
+improve: to make better
+include: to contain or encompass
+increase: to make greater
+indeed: truly; in fact
+independent: free from control
+industry: economic activity
+inform: to give knowledge
+inside: within
+instead: as an alternative
+interest: curiosity or concern
+into: to the inside of
+introduce: to present or make known
+invent: to create something new
+invite: to ask to come
+iron: a strong metal
+island: land surrounded by water
+issue: an important topic or problem
+item: a single thing
+job: work or position
+join: to connect or participate
+journey: travel from one place to another
+joy: a feeling of happiness
+judge: to form an opinion
+jump: to spring into the air
+just: fair or exactly
+keep: to hold or retain
+key: an important thing; also a metal key
+kid: a child
+kill: to cause death
+kind: type or compassionate
+king: a male ruler
+kitchen: a room for cooking
+know: to have knowledge
+knowledge: information or awareness
+lady: a woman
+land: the solid part of the earth
+language: method of communication
+large: big in size
+last: final or previous
+late: after the expected time
+laugh: to make sounds of amusement
+law: system of rules
+lead: to guide; also a metal
+learn: to acquire knowledge
+leave: to go away or permit
+left: opposite of right
+lend: to give temporarily
+less: smaller in amount
+letter: a written message
+level: flat or stage
+life: existence
+light: visible energy; not heavy
+like: to enjoy or prefer
+limit: boundary or restriction
+line: a row of marks or people
+list: a series of items
+listen: to pay attention to sound
+little: small in size
+live: to be alive or reside
+local: relating to a place
+long: having great length
+look: to direct eyes toward
+lose: to fail to keep
+love: deep affection
+low: not high
+luck: chance or fortune
+machine: a device that performs work
+main: most important
+major: greater in importance
+make: to create or produce
+man: an adult male
+manage: to handle or control
+many: a large number
+market: place for buying and selling
+marry: to wed
+match: to pair or correspond
+matter: substance or importance
+meal: an occasion for eating
+mean: to signify
+measure: to determine size or amount
+meet: to come together
+member: a person belonging to a group
+memory: the ability to recall information
+mention: to refer to
+message: information sent to someone
+metal: a solid element
+method: a way of doing something
+middle: center
+might: power or possibility
+mind: intellect or thought
+minute: 60 seconds; very small
+miss: to fail to hit or reach
+modern: relating to the present
+moment: a short period of time
+money: currency or wealth
+month: a period of roughly
+moon: the natural satellite of Earth
+more: a greater amount
+morning: the early part of the day
+most: majority or greatest
+mother: female parent
+mountain: a large elevated landform
+mouth: the opening for eating and speaking
+move: to change position
+music: organized sound
+must: required
+myself: the speaker
+name: a word by which someone is called
+nation: a country or people
+nature: the physical world
+near: close in distance
+nearly: almost
+necessary: required
+need: require
+neighbor: a person living nearby
+never: not ever
+new: not old
+news: information about recent events
+next: following in time
+nice: pleasant
+night: the time of darkness
+nine: the number 9
+noise: unwanted sound
+none: not any
+normal: usual or standard
+north: the direction opposite south
+note: a brief record or message
+nothing: not anything
+notice: to observe or pay attention
+now: at the present time
+number: a numeral or quantity
+nurse: a person who cares for the sick
+object: a thing
+observe: to watch carefully
+occur: to happen
+ocean: large body of salt water
+offer: to present or give
+office: a place of work
+often: frequently
+okay: all right
+old: having lived long
+once: one time
+only: solely
+open: to allow access
+operate: to control or use
+opinion: a personal belief
+opportunity: a chance
+option: a choice
+order: a request or arrangement
+organize: to arrange systematically
+other: different
+our: belonging to us
+outside: external
+over: above
+own: to possess
+owner: someone who owns something
+owner: someone who owns something
+page: one side of a sheet of paper in a book
+pain: physical or emotional suffering
+paint: a colored liquid used for covering surfaces
+pair: two similar things that go together
+paper: material for writing or printing
+parent: a mother or father
+park: an area for recreation or greenery
+part: a portion of a whole
+partner: a person you work or share with
+party: a social gathering or group
+pass: to go past; also a permit
+past: time that has gone by
+path: a way or track
+patient: a person receiving medical care; also calm
+pattern: a repeated design or sequence
+pay: to give money for something
+peace: freedom from conflict
+people: human beings collectively
+perfect: without flaws; ideal
+perform: to carry out an action or task
+period: a length of time
+person: an individual human being
+phone: a device for communication
+photo: a photograph
+pick: to choose or gather
+piece: a part of something
+place: a particular position or area
+plan: a detailed proposal for action
+plant: a living organism that grows in the soil; also to place
+play: to engage in activity for fun
+please: to make someone happy; also used politely
+point: a sharp end; a detail or idea
+police: authority responsible for maintaining law
+policy: a rule or guideline
+poor: lacking money or resources
+popular: liked or admired by many
+position: a location or status
+possible: able to be done
+post: to send or display; also a job position
+power: ability or strength to act
+practice: repeated exercise to improve skill
+prepare: to make ready
+present: current time; also to give
+press: to push or apply force; also media
+pretty: attractive in appearance
+prevent: to stop something from happening
+price: the amount of money for something
+print: to produce text or images on paper
+private: not public; personal
+probable: likely to happen
+problem: a matter needing solution
+produce: to make or create; also fruits/vegetables
+product: something produced
+program: a plan or software application
+progress: forward movement; improvement
+promise: a commitment
+property: something owned
+protect: to keep safe
+prove: to demonstrate truth
+public: open to all
+pull: to exert force toward oneself
+purpose: reason for doing something
+push: to exert force away from oneself
+put: to place something
+quality: degree of excellence
+question: an inquiry
+quick: fast
+quiet: making little or no noise
+quite: completely or fairly
+radio: device for receiving broadcast signals
+rain: water falling from clouds
+raise: to lift or increase
+range: extent or scope
+rate: speed or level
+reach: to arrive at or attain
+read: to look at and comprehend words
+ready: prepared
+real: true or actual
+reason: cause or explanation
+receive: to get something
+record: to store information; also a document
+reduce: to make smaller or less
+refer: to direct attention to
+reflect: to bounce back; to think carefully
+refuse: to decline
+region: an area or district
+regret: a feeling of sadness about the past
+regular: usual or standard
+relate: to connect or tell
+remain: to stay in place
+remember: to recall
+remove: to take away
+repair: to fix
+repeat: to do again
+replace: to substitute
+reply: to answer
+report: to give information about
+require: to need
+research: careful study to discover facts
+respect: admiration or consideration
+rest: to relax or pause
+result: an outcome
+return: to go back
+rice: a cereal grain
+rich: wealthy
+ride: to sit on and control a vehicle or animal
+right: correct; opposite of left
+ring: a circular band; to make a bell sound
+rise: to move upward
+risk: the chance of danger
+river: a large flowing body of water
+road: a path for vehicles
+rock: a solid mineral mass
+role: a function or part
+room: space in a building
+rule: a regulation or guide
+run: to move quickly on foot
+safe: protected from harm
+same: identical
+save: to rescue or keep
+school: a place for learning
+science: study of the natural world
+season: one of the four divisions of the year
+seat: a place to sit
+second: one-sixtieth of a minute; also next after first
+secret: hidden or unknown
+section: a part of something
+see: to perceive with the eyes
+seem: to appear
+self: a person’s identity
+sell: to exchange for money
+send: to cause to go to someone
+sense: perception or awareness
+separate: to divide
+serious: important or solemn
+serve: to provide or assist
+service: work done for someone
+seven: the number 7
+several: more than two but not many
+shake: to move back and forth
+shape: the form of an object
+share: to divide or give a part
+sharp: having a fine edge; clear
+she: female person
+sheet: a thin flat piece
+shelf: a flat horizontal surface
+shine: to emit light
+ship: a large boat
+shirt: a garment for the upper body
+shock: a sudden surprise or impact
+shoe: footwear
+shoot: to fire a weapon or take a photo
+short: small in length; also insufficient
+should: used to indicate obligation
+show: to display or present
+sick: ill
+side: a surface or position
+sign: a symbol or notice
+simple: easy to understand
+since: from a past time
+sing: to produce musical sounds with the voice
+single: one only
+sister: a female sibling
+skill: ability to do something well
+skin: the outer layer of the body
+sleep: rest by closing the eyes
+slow: not fast
+small: little in size
+smile: facial expression showing happiness
+smoke: visible vapor from fire
+snow: frozen precipitation
+so: therefore; very
+social: relating to society
+soft: not hard; gentle
+some: an unspecified amount
+someone: an unspecified person
+something: an unspecified thing
+sometimes: at certain times
+son: male child
+song: a musical composition
+soon: in a short time
+sorry: feeling regret
+sound: vibrations perceived by ears
+south: the direction opposite north
+space: the area beyond Earth; room
+speak: to talk
+special: unique or important
+speed: rate of motion
+spend: to use money or time
+sport: physical activity or game
+spot: a location or mark
+spread: to extend over an area
+spring: a season; also to jump
+square: a shape with four equal sides
+staff: a group of workers
+stage: a platform; a phase
+stand: to be upright
+star: a celestial body; a famous person
+start: to begin
+state: condition; also a country
+station: a place for specific purpose
+stay: to remain
+step: a movement of the foot; also stage
+stick: a thin piece of wood; to adhere
+still: not moving; yet
+stock: supply of goods; shares
+stone: a rock
+stop: to cease movement
+store: to keep or a shop
+story: a narrative; also a floor in a building
+straight: not curved
+strange: unusual
+street: a public road
+strong: having strength
+student: a learner
+study: to learn
+style: manner of doing something
+subject: topic; a person under authority
+success: achievement
+such: of the kind
+sudden: happening quickly
+sugar: sweet substance
+suit: a set of clothes; also to be appropriate
+summer: the warm season
+sun: the star that gives light and heat
+support: to help or bear weight
+sure: certain
+surprise: something unexpected
+system: a set of connected things
+table: a flat surface or chart
+take: to grasp or accept
+talk: to speak
+tall: of great height
+teach: to instruct
+team: a group working together
+tear: to rip; also liquid from eye
+tell: to inform
+ten: the number 10
+term: a word or a fixed period
+test: an examination
+than: used in comparisons
+thank: express gratitude
+that: used to indicate
+the: definite article
+their: belonging to them
+them: they (object form)
+then: at that time
+there: in that place
+these: plural of this
+they: plural of he/she
+thing: an object
+think: to have thoughts
+third: after second
+this: referring to a specific thing
+those: plural of that
+though: although
+thousand: the number 1000
+three: the number 3
+through: from one end to another
+throw: to send through the air
+thus: therefore
+time: measured duration
+today: this day
+together: with each other
+tomorrow: the day after today
+tonight: this night
+too: also; excessively
+tool: an instrument used to perform a task
+top: the highest point
+total: whole amount
+touch: to feel by contact
+town: a human settlement
+track: a path or mark
+trade: exchange of goods
+train: to teach or a mode of transport
+travel: to go from one place to another
+tree: a woody plant
+true: accurate or real
+trust: confidence in someone
+try: to attempt
+turn: to rotate; also a chance
+twice: two times
+type: a category or form
+under: below
+understand: to comprehend
+unit: a single part
+until: up to the time of
+up: toward a higher position
+upon: on; immediately after
+use: to employ
+usual: customary
+value: importance or worth
+various: several different kinds
+very: extremely
+view: to look at
+visit: to go see
+voice: sound produced by a person
+wait: to stay in place until something happens
+walk: to move on foot
+wall: vertical structure
+want: to desire
+war: armed conflict
+warm: having heat
+wash: to clean
+watch: to observe; a timepiece
+water: H₂O; liquid for drinking
+way: a path or method
+we: the speaker and others
+wear: to have clothing on
+weather: atmospheric conditions
+week: seven days
+weight: heaviness
+well: in good health or properly
+west: the direction opposite east
+what: asking for information
+wheel: circular device that rolls
+when: at what time
+where: at what place
+which: which one
+while: during the time
+white: color of snow or milk
+who: asking for a person
+whole: entire
+why: for what reason
+wide: broad
+wife: female spouse
+will: future tense; desire
+win: to be victorious
+wind: moving air
+window: opening in a wall
+wine: alcoholic drink from grapes
+winter: cold season
+wish: desire or hope
+with: accompanied by
+within: inside
+without: not having
+woman: adult female
+wonder: to be curious
+wood: material from trees
+word: unit of language
+work: to labor or a task
+world: the Earth and its people
+worry: anxiety
+write: to form letters
+wrong: incorrect
+yard: outdoor area
+year: 12 months
+yes: affirmative
+yesterday: the day before today
+yet: until now
+young: having lived a short time
+your: belonging to you
+yourself: you personally
+zero: the number 0
