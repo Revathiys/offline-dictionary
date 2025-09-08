@@ -14,20 +14,19 @@ def init_db():
         meaning TEXT
     )
     """)
-    # Add some sample words
-    data = [
-        ("apple", "A sweet fruit that grows on trees."),
-        ("application", "A formal request or a software program."),
-        ("python", "A programming language that is powerful and easy to learn."),
-        ("dictionary", "A collection of words and their meanings."),
-        ("computer", "An electronic device that processes data."),
-        ("student", "A person who is studying at a school or college."),
-        ("teacher", "A person who helps students gain knowledge.")
-    ]
+
+    # Load words and meanings from txt files
+    with open("words.txt", "r") as wf, open("meanings.txt", "r") as mf:
+        words = [line.strip() for line in wf.readlines()]
+        meanings = [line.strip() for line in mf.readlines()]
+
+    data = list(zip(words, meanings))  # Pair words with meanings
+
     cursor.executemany("INSERT OR REPLACE INTO dictionary (word, meaning) VALUES (?, ?)", data)
     conn.commit()
     conn.close()
 
+# ---------------- Lookup ----------------
 def lookup(word):
     conn = sqlite3.connect("dictionary.db")
     cursor = conn.cursor()
@@ -93,15 +92,12 @@ app.geometry("700x500")
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
-# Input Box
 entry = ctk.CTkEntry(app, placeholder_text="Type a word...", width=400, height=40)
 entry.pack(pady=20)
 
-# Result Label
 result_label = ctk.CTkLabel(app, text="", wraplength=600, justify="left", font=("Arial", 16))
 result_label.pack(pady=20)
 
-# Search Function
 def search():
     word = entry.get().strip().lower()
     if not word:
@@ -114,7 +110,6 @@ def search():
     else:
         result_label.configure(text=f"❌ Word '{word}' not found in dictionary.")
 
-# Buttons
 search_btn = ctk.CTkButton(app, text="🔍 Search", command=search, width=200)
 search_btn.pack(pady=5)
 
@@ -127,7 +122,6 @@ fav_btn.pack(pady=5)
 export_btn = ctk.CTkButton(app, text="📤 Export History", command=export_to_txt, width=200)
 export_btn.pack(pady=5)
 
-# Show Favorites & History
 def show_favorites():
     favs = "\n".join(favorites) if favorites else "No favorites yet."
     messagebox.showinfo("Favorites", favs)
@@ -142,5 +136,4 @@ fav_list_btn.pack(pady=5)
 his_list_btn = ctk.CTkButton(app, text="📖 Show History", command=show_history, width=200)
 his_list_btn.pack(pady=5)
 
-# Run Application
 app.mainloop()
