@@ -1,0 +1,96 @@
+apple: A round fruit with red, green, or yellow skin and sweet to tart taste.
+banana: A long, curved fruit with a soft, sweet inside and yellow skin.
+orange: A round citrus fruit with a tough bright orange skin.
+grape: A small, round fruit, usually purple or green, that grows in bunches.
+mango: A tropical fruit with smooth skin, sweet juicy pulp, and a large seed.
+watermelon: A large fruit with green skin, red juicy flesh, and black seeds.
+pineapple: A tropical fruit with spiky skin and sweet yellow flesh.
+cherry: A small, round red or black fruit with a stone inside.
+strawberry: A red, heart-shaped fruit with tiny seeds on its surface.
+blueberry: A small round blue fruit, sweet and slightly tart.
+kiwi: A small brown fruit with green flesh and tiny black seeds.
+lemon: A yellow citrus fruit that is sour in taste.
+peach: A soft, round fruit with fuzzy skin and sweet juicy flesh.
+pear: A green or yellow fruit with sweet juicy flesh and narrow top.
+plum: A round fruit with smooth skin and sweet or tart flesh.
+apricot: A small, soft, orange fruit with a single seed.
+melon: A large, round fruit with sweet, juicy flesh.
+papaya: A tropical fruit with orange flesh and black seeds inside.
+fig: A soft fruit with thin skin and many small seeds inside.
+guava: A tropical fruit with green skin and sweet pink or white flesh.
+date: A sweet brown fruit from the date palm tree.
+coconut: A large, brown, hard fruit with white flesh and water inside.
+tomato: A red or yellow edible fruit used in cooking.
+potato: A starchy tuber used as a vegetable.
+carrot: An orange root vegetable, crunchy and sweet.
+onion: A round vegetable with layers and strong smell, used in cooking.
+garlic: A small, white bulb vegetable with strong flavor.
+spinach: A leafy green vegetable rich in iron and vitamins.
+lettuce: A leafy green vegetable used in salads.
+cabbage: A green or purple leafy vegetable, round in shape.
+broccoli: A green vegetable with tree-like florets.
+cauliflower: A white vegetable with a tree-like structure, similar to broccoli.
+pepper: A spicy vegetable or seasoning, also called chili pepper.
+chili: A small, hot, spicy red or green pepper.
+cucumber: A long, green vegetable with watery flesh, used in salads.
+pumpkin: A large orange vegetable, often used for carving or cooking.
+radish: A small, red or white root vegetable, slightly spicy.
+corn: A yellow vegetable with kernels on a cob.
+beans: Edible seeds from pods, like kidney beans or green beans.
+peas: Small green spherical seeds eaten as a vegetable.
+rice: A cereal grain used as staple food worldwide.
+wheat: A cereal grain used to make flour for bread and pastries.
+barley: A cereal grain used for food and brewing.
+oats: A cereal grain eaten as porridge or in cereals.
+rye: A cereal grain used to make bread and whiskey.
+milk: A white liquid produced by mammals, used as food and drink.
+cheese: A dairy product made from milk curds.
+butter: A solid dairy product made from churning cream.
+yogurt: A creamy dairy product made by fermenting milk.
+egg: An oval reproductive body from birds, used as food.
+chicken: A domesticated bird raised for meat and eggs.
+fish: Aquatic animals used as food.
+beef: Meat from cows.
+pork: Meat from pigs.
+bread: A staple food made from flour, water, and yeast.
+cake: A sweet baked dessert made from flour, sugar, and eggs.
+cookie: A small sweet baked treat, usually flat.
+tea: A drink made by infusing leaves in hot water.
+coffee: A drink made from roasted coffee beans.
+sugar: A sweet crystalline substance used to flavor food.
+salt: A mineral used to season and preserve food.
+pepper: A spice used to add heat and flavor to dishes.
+honey: A sweet, sticky substance made by bees from nectar.
+oil: A liquid fat used for cooking or frying.
+vinegar: A sour liquid used in cooking and pickling.
+juice: Liquid extracted from fruits or vegetables.
+water: A colorless liquid essential for life.
+soda: A carbonated sweetened drink.
+wine: An alcoholic drink made from fermented grapes.
+beer: An alcoholic drink made from fermented grains.
+salted: Flavored with or containing salt.
+sweet: Having the taste of sugar or honey.
+spicy: Flavored with strong spices.
+hot: Having a high temperature or spicy taste.
+cold: Having a low temperature.
+soft: Easy to press or not hard.
+hard: Solid, firm, and difficult to break.
+fast: Moving quickly.
+slow: Not fast; taking time.
+happy: Feeling pleasure or contentment.
+sad: Feeling sorrow or unhappiness.
+angry: Feeling strong displeasure or rage.
+love: A deep affection or care for someone or something.
+hate: Intense dislike or aversion.
+friend: A person with whom one has a bond of mutual affection.
+family: A group of related people.
+school: An institution for education.
+college: An educational institution for higher studies.
+teacher: A person who educates students.
+student: A person studying at a school or college.
+book: A set of written or printed pages.
+pen: A tool used for writing.
+paper: Material for writing or printing.
+desk: A piece of furniture for writing or working.
+chair: A piece of furniture to sit on.
+bag: A container used to carry items.
