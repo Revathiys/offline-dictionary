@@ -1,124 +1,146 @@
-import tkinter as tk
-from tkinter import messagebox
+import customtkinter as ctk
+import sqlite3
+import pyttsx3
+import json
+from tkinter import messagebox, filedialog
 
+# ---------------- Database Setup ----------------
+def init_db():
+    conn = sqlite3.connect("dictionary.db")
+    cursor = conn.cursor()
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS dictionary (
+        word TEXT PRIMARY KEY,
+        meaning TEXT
+    )
+    """)
+    # Add some sample words
+    data = [
+        ("apple", "A sweet fruit that grows on trees."),
+        ("application", "A formal request or a software program."),
+        ("python", "A programming language that is powerful and easy to learn."),
+        ("dictionary", "A collection of words and their meanings."),
+        ("computer", "An electronic device that processes data."),
+        ("student", "A person who is studying at a school or college."),
+        ("teacher", "A person who helps students gain knowledge.")
+    ]
+    cursor.executemany("INSERT OR REPLACE INTO dictionary (word, meaning) VALUES (?, ?)", data)
+    conn.commit()
+    conn.close()
 
-# ---------------- Trie Data Structure ----------------
-class TrieNode:
-    def __init__(self):
-        self.children = {}
-        self.is_end = False
+def lookup(word):
+    conn = sqlite3.connect("dictionary.db")
+    cursor = conn.cursor()
+    cursor.execute("SELECT meaning FROM dictionary WHERE word = ?", (word,))
+    result = cursor.fetchone()
+    conn.close()
+    return result[0] if result else None
 
+# ---------------- Favorites & History ----------------
+FAV_FILE = "favorites.json"
+HIS_FILE = "history.json"
 
-class Trie:
-    def __init__(self):
-        self.root = TrieNode()
+def load_json(file):
+    try:
+        with open(file, "r") as f:
+            return json.load(f)
+    except:
+        return []
 
-    def insert(self, word):
-        node = self.root
-        for ch in word:
-            if ch not in node.children:
-                node.children[ch] = TrieNode()
-            node = node.children[ch]
-        node.is_end = True
+def save_json(file, data):
+    with open(file, "w") as f:
+        json.dump(data, f, indent=4)
 
-    def search(self, word):
-        node = self.root
-        for ch in word:
-            if ch not in node.children:
-                return False
-            node = node.children[ch]
-        return node.is_end
+favorites = load_json(FAV_FILE)
+history = load_json(HIS_FILE)
 
-    def starts_with(self, prefix):
-        node = self.root
-        for ch in prefix:
-            if ch not in node.children:
-                return []
-            node = node.children[ch]
-        return self._get_words(node, prefix)
+def add_to_favorites(word):
+    if word and word not in favorites:
+        favorites.append(word)
+        save_json(FAV_FILE, favorites)
+        messagebox.showinfo("Saved", f"'{word}' added to favorites!")
 
-    def _get_words(self, node, prefix):
-        words = []
-        if node.is_end:
-            words.append(prefix)
-        for ch, next_node in node.children.items():
-            words.extend(self._get_words(next_node, prefix + ch))
-        return words
+def add_to_history(word):
+    if word and word not in history:
+        history.append(word)
+        save_json(HIS_FILE, history)
 
+# ---------------- Text-to-Speech ----------------
+def speak_word(word):
+    if not word:
+        messagebox.showinfo("Error", "No word to speak!")
+        return
+    engine = pyttsx3.init()
+    engine.say(word)
+    engine.runAndWait()
 
-# ---------------- Edit Distance ----------------
-def edit_distance(word1, word2):
-    m, n = len(word1), len(word2)
-    dp = [[0] * (n + 1) for _ in range(m + 1)]
-    for i in range(m + 1):
-        for j in range(n + 1):
-            if i == 0:
-                dp[i][j] = j
-            elif j == 0:
-                dp[i][j] = i
-            elif word1[i - 1] == word2[j - 1]:
-                dp[i][j] = dp[i - 1][j - 1]
-            else:
-                dp[i][j] = 1 + min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1])
-    return dp[m][n]
+# ---------------- Export ----------------
+def export_to_txt():
+    file_path = filedialog.asksaveasfilename(defaultextension=".txt",
+                                             filetypes=[("Text Files", "*.txt")])
+    if file_path:
+        with open(file_path, "w") as f:
+            for w in history:
+                meaning = lookup(w)
+                f.write(f"{w}: {meaning}\n")
+        messagebox.showinfo("Exported", f"History saved to {file_path}")
 
+# ---------------- GUI ----------------
+init_db()
+app = ctk.CTk()
+app.title("Advanced Offline Dictionary")
+app.geometry("700x500")
+ctk.set_appearance_mode("dark")
+ctk.set_default_color_theme("blue")
 
-# ---------------- Load Words and Meanings ----------------
-trie = Trie()
-word_list = []
-meanings_dict = {}
+# Input Box
+entry = ctk.CTkEntry(app, placeholder_text="Type a word...", width=400, height=40)
+entry.pack(pady=20)
 
-with open("words.txt") as f:
-    for line in f:
-        word = line.strip().lower()
-        trie.insert(word)
-        word_list.append(word)
+# Result Label
+result_label = ctk.CTkLabel(app, text="", wraplength=600, justify="left", font=("Arial", 16))
+result_label.pack(pady=20)
 
-with open("meanings.txt") as f:
-    for line in f:
-        if ':' in line:
-            w, m = line.strip().split(":", 1)
-            meanings_dict[w.lower()] = m.strip()
-
-
-# ---------------- Tkinter GUI ----------------
-def lookup_word():
+# Search Function
+def search():
     word = entry.get().strip().lower()
     if not word:
         messagebox.showinfo("Error", "Please enter a word!")
         return
-
-    result_text.delete(1.0, tk.END)
-
-    if trie.search(word):
-        meaning = meanings_dict.get(word, "Meaning not available offline.")
-        result_text.insert(tk.END, f"✔ Word found!\nMeaning: {meaning}\n")
+    meaning = lookup(word)
+    if meaning:
+        result_label.configure(text=f"✔ {word.capitalize()}:\n{meaning}")
+        add_to_history(word)
     else:
-        result_text.insert(tk.END, "❌ Word not found.\n")
+        result_label.configure(text=f"❌ Word '{word}' not found in dictionary.")
 
-        # Auto-suggestions
-        suggestions = trie.starts_with(word[:2])[:5]
-        if suggestions:
-            result_text.insert(tk.END, f"Auto-suggestions: {', '.join(suggestions)}\n")
+# Buttons
+search_btn = ctk.CTkButton(app, text="🔍 Search", command=search, width=200)
+search_btn.pack(pady=5)
 
-        # Spelling corrections
-        corrections = [w for w in word_list if edit_distance(word, w) <= 2][:5]
-        if corrections:
-            result_text.insert(tk.END, f"Did you mean?: {', '.join(corrections)}\n")
+speak_btn = ctk.CTkButton(app, text="🔊 Speak", command=lambda: speak_word(entry.get()), width=200)
+speak_btn.pack(pady=5)
 
+fav_btn = ctk.CTkButton(app, text="⭐ Add to Favorites", command=lambda: add_to_favorites(entry.get().strip().lower()), width=200)
+fav_btn.pack(pady=5)
 
-# Tkinter window
-window = tk.Tk()
-window.title("Offline Word Lookup Dictionary")
-window.geometry("500x400")
+export_btn = ctk.CTkButton(app, text="📤 Export History", command=export_to_txt, width=200)
+export_btn.pack(pady=5)
 
-tk.Label(window, text="Enter Word:").pack(pady=5)
-entry = tk.Entry(window, width=30)
-entry.pack(pady=5)
+# Show Favorites & History
+def show_favorites():
+    favs = "\n".join(favorites) if favorites else "No favorites yet."
+    messagebox.showinfo("Favorites", favs)
 
-tk.Button(window, text="Lookup", command=lookup_word).pack(pady=5)
+def show_history():
+    his = "\n".join(history) if history else "No history yet."
+    messagebox.showinfo("History", his)
 
-result_text = tk.Text(window, height=15, width=60)
-result_text.pack(pady=10)
+fav_list_btn = ctk.CTkButton(app, text="📚 Show Favorites", command=show_favorites, width=200)
+fav_list_btn.pack(pady=5)
 
-window.mainloop()
+his_list_btn = ctk.CTkButton(app, text="📖 Show History", command=show_history, width=200)
+his_list_btn.pack(pady=5)
+
+# Run Application
+app.mainloop()
